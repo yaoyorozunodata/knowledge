@@ -1,13 +1,11 @@
 ---
-description: GitHubでメールアドレス流出を防ぐための設定と運用手順
+description: GitHubでメールアドレス流出を防ぐための設定
 version: 1.1
 date: 2026-03-05
 tags: github, email, privacy, security, git
 ---
 
-# GitHub メール流出防止策（運用別）
-
-対象: `git/15_GitHub_settings_アカウント.md` のうち、メールアドレス流出防止に関する項目のみを整理。
+# GitHubでメールアドレス流出を防ぐための設定
 
 ## 公開プロフィールでメールを出さない運用
 
