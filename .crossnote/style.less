@@ -1,0 +1,99 @@
+.markdown-preview.markdown-preview {
+
+  /* ▼ 橙テーマ */
+  --main-bg: #ff9f45;
+  --sub-bg: #ffe7d1;
+  --main-color: #221000;
+
+  /* ▼ 青テーマ */
+  --main-bg: #94c6f0;
+  --sub-bg: #e1ebfa;
+  --main-color: #000050;
+
+
+
+  /* 共通プロパティ */
+  --radius-lg: 12px;
+  --radius-md: 8px;
+  --radius-sm: 4px;
+
+  --fw-bold: 700;
+
+  /* 全体設定 */
+  font-size: 14px;
+  line-height: 1.4;
+
+  /* --- h1 --- */
+  h1 {
+    padding: 14px 18px;
+    background: var(--main-bg);
+    color: var(--main-color);
+    border-radius: var(--radius-lg);
+    font-weight: var(--fw-bold);
+  }
+
+  /* --- h2 --- */
+  h2 {
+    padding: 10px 14px;
+    background: var(--sub-bg);
+    border-left: 8px solid var(--main-bg);
+    border-radius: var(--radius-md);
+    color: var(--main-color);
+    font-weight: var(--fw-bold);
+  }
+
+  /* --- h3 --- */
+  h3 {
+    padding: 4px 0px 4px 14px;
+    border-top: 5px double var(--main-bg);
+    border-bottom: 5px double var(--main-bg);
+    border-radius: var(--radius-md);
+    color: var(--main-color);
+    font-weight: var(--fw-bold);
+  }
+
+  /* --- h4 --- */
+  h4 {
+    padding: 4px 0px 4px 8px;
+    border-left: 5px solid var(--main-bg);
+    border-bottom: 3px solid var(--main-bg);
+    border-radius: var(--radius-md) 0 0 var(--radius-md);
+    color: var(--main-color);
+    font-weight: var(--fw-bold);
+  }
+
+  /* --- h5 --- */
+  h5 {
+    padding-left: 13px;
+    border-bottom: 3px solid var(--main-bg);
+    color: var(--main-color);
+    font-weight: var(--fw-bold);
+  }
+
+  /* --- h6 --- */
+  h6 {
+    padding-left: 8px;
+    border-left: 5px solid var(--main-bg);
+    border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+    color: var(--main-color);
+    font-weight: var(--fw-bold);
+  }
+
+  /* --- blockquote --- */
+  blockquote {
+    padding: 8px;
+    border: 1px solid #d8a87a;
+    border-left: 6px solid #d8a87a;
+    background-color: #fff4e6;
+    border-radius: var(--radius-md);
+    // color: #5a4634;
+  }
+
+  table th {
+    background-color: #eeeeee;
+    /* 明るいグレー */
+    border-bottom: 4px double #4e4e4e;
+    /* 少し濃いグレーでアクセント */
+    padding: 4px;
+  }
+}
